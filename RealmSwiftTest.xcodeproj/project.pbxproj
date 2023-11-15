@@ -17,7 +17,6 @@
 		3678A7732AF373F000D7745F /* RealmSwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7722AF373F000D7745F /* RealmSwiftTestUITests.swift */; };
 		3678A7752AF373F000D7745F /* RealmSwiftTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7742AF373F000D7745F /* RealmSwiftTestUITestsLaunchTests.swift */; };
 		3678A7832AF3741000D7745F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3678A7822AF3741000D7745F /* RealmSwift */; };
-		3678A7862AF3743E00D7745F /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7852AF3743E00D7745F /* SomeModel.swift */; };
 		3678A7882AF374CC00D7745F /* SomeModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7872AF374CC00D7745F /* SomeModelObject.swift */; };
 		3678A78A2AF3762E00D7745F /* RootModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7892AF3762E00D7745F /* RootModelObject.swift */; };
 		3678A78D2AF37A5E00D7745F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A78C2AF37A5E00D7745F /* RealmManager.swift */; };
@@ -54,7 +53,6 @@
 		3678A76E2AF373F000D7745F /* RealmSwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmSwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3678A7722AF373F000D7745F /* RealmSwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSwiftTestUITests.swift; sourceTree = "<group>"; };
 		3678A7742AF373F000D7745F /* RealmSwiftTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSwiftTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3678A7852AF3743E00D7745F /* SomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
 		3678A7872AF374CC00D7745F /* SomeModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModelObject.swift; sourceTree = "<group>"; };
 		3678A7892AF3762E00D7745F /* RootModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModelObject.swift; sourceTree = "<group>"; };
 		3678A78C2AF37A5E00D7745F /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				3678A7892AF3762E00D7745F /* RootModelObject.swift */,
-				3678A7852AF3743E00D7745F /* SomeModel.swift */,
 				3678A7872AF374CC00D7745F /* SomeModelObject.swift */,
 			);
 			path = DataModels;
@@ -298,7 +295,6 @@
 				3678A7522AF373EF00D7745F /* AppDelegate.swift in Sources */,
 				3678A7542AF373EF00D7745F /* SceneDelegate.swift in Sources */,
 				3678A78A2AF3762E00D7745F /* RootModelObject.swift in Sources */,
-				3678A7862AF3743E00D7745F /* SomeModel.swift in Sources */,
 				3678A78D2AF37A5E00D7745F /* RealmManager.swift in Sources */,
 				3678A7882AF374CC00D7745F /* SomeModelObject.swift in Sources */,
 			);

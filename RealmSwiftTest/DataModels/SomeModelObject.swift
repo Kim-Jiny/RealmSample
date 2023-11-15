@@ -16,6 +16,7 @@ class SomeModelObject: Object {
     @Persisted var date: Date
     @Persisted var optionType: List<Int>
     @Persisted var rootId: String
+    @Persisted var rootId2: String
 
     convenience init(title: String) {
         self.init()
@@ -26,5 +27,6 @@ class SomeModelObject: Object {
         self.date = Date()
         self.optionType = List<Int>()
         self.rootId = ""
+        self.rootId2 = ""
     }
 }
