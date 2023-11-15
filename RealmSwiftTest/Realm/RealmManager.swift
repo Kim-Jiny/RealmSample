@@ -10,6 +10,7 @@ import RealmSwift
 
 class RealmManager {
     static let shared = RealmManager()
+    let config = Realm.Configuration(schemaVersion: 0)
 
     func getRootModelObject(forKey key: String) -> RootModelObject? {
         do {

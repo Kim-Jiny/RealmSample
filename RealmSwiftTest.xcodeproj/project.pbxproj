@@ -20,6 +20,7 @@
 		3678A7882AF374CC00D7745F /* SomeModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7872AF374CC00D7745F /* SomeModelObject.swift */; };
 		3678A78A2AF3762E00D7745F /* RootModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A7892AF3762E00D7745F /* RootModelObject.swift */; };
 		3678A78D2AF37A5E00D7745F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3678A78C2AF37A5E00D7745F /* RealmManager.swift */; };
+		36FBAA782B04817B00FC78AB /* RealmMigrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FBAA772B04817B00FC78AB /* RealmMigrationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		3678A7872AF374CC00D7745F /* SomeModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModelObject.swift; sourceTree = "<group>"; };
 		3678A7892AF3762E00D7745F /* RootModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModelObject.swift; sourceTree = "<group>"; };
 		3678A78C2AF37A5E00D7745F /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		36FBAA772B04817B00FC78AB /* RealmMigrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +151,18 @@
 		3678A78B2AF37A5000D7745F /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				36FBAA762B04744100FC78AB /* Migration */,
 				3678A78C2AF37A5E00D7745F /* RealmManager.swift */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		36FBAA762B04744100FC78AB /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				36FBAA772B04817B00FC78AB /* RealmMigrationManager.swift */,
+			);
+			path = Migration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 			files = (
 				3678A7562AF373EF00D7745F /* ViewController.swift in Sources */,
 				3678A7522AF373EF00D7745F /* AppDelegate.swift in Sources */,
+				36FBAA782B04817B00FC78AB /* RealmMigrationManager.swift in Sources */,
 				3678A7542AF373EF00D7745F /* SceneDelegate.swift in Sources */,
 				3678A78A2AF3762E00D7745F /* RootModelObject.swift in Sources */,
 				3678A78D2AF37A5E00D7745F /* RealmManager.swift in Sources */,
